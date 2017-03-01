@@ -44,16 +44,9 @@ public class PointFinder extends JFrame implements MouseListener{
 		System.out.println("(" + e.getX() + "," +  (e.getY() - MENU_BAR_WIDTH) + ")");
 	}
 	
-	public void mousePressed(MouseEvent e) {
-		// TODO Auto-generated method stub	
-	}
-	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
-	}
-	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-	}
-	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
-	}
+	//The following method stubs are required but do nothing
+	public void mousePressed(MouseEvent e) {}
+	public void mouseReleased(MouseEvent e) {}
+	public void mouseEntered(MouseEvent e) {}
+	public void mouseExited(MouseEvent e) {}
 }
